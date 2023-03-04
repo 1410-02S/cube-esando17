@@ -23,20 +23,20 @@ public class Cube {
 			currentFace = face;
 			switch(face){
 				case 0: //face red
-				 	rightEdge [0] = 1;//refers to the overall side color - blue
-					rightEdge [1] = 2;//location number of the side color 
-					rightEdge [2] = 5;
-					rightEdge [3] = 8;
+				 	rightEdge [0] = 3;//refers to the overall side color - green
+					rightEdge [1] = 0;//location number of the side color 
+					rightEdge [2] = 3;
+					rightEdge [3] = 6;
 
 					topEdge [0] = 4; //color yellow
 					topEdge [1] = 8;
 					topEdge [2] = 5;
 					topEdge [3] = 2;
 
-					leftEdge [0] = 3; //green 
-					leftEdge [1] = 0;
-					leftEdge [2] = 3;
-					leftEdge [3] = 6; 
+					leftEdge [0] = 1; //blue 
+					leftEdge [1] = 2;
+					leftEdge [2] = 5;
+					leftEdge [3] = 8; 
 
 					bottomEdge [0] = 5; // white
 					bottomEdge [1] = 2;
@@ -46,20 +46,20 @@ public class Cube {
 					
 				
 				case 1: // blue face
-					rightEdge [0] = 2;//refers to the overall side color - orange
-					rightEdge [1] = 2;//location number of the side color 
-					rightEdge [2] = 5;
-					rightEdge [3] = 8;
+					rightEdge [0] = 0;//refers to the overall side color - red
+					rightEdge [1] = 0;//location number of the side color 
+					rightEdge [2] = 3;
+					rightEdge [3] = 6;
 
 					topEdge [0] = 4; //color yellow
 					topEdge [1] = 6;
 					topEdge [2] = 7;
 					topEdge [3] = 8;
 
-					leftEdge [0] = 0; //red 
-					leftEdge [1] = 0;
-					leftEdge [2] = 3;
-					leftEdge [3] = 6; 
+					leftEdge [0] = 2; //orange 
+					leftEdge [1] = 2;
+					leftEdge [2] = 5;
+					leftEdge [3] = 8; 
 
 					bottomEdge [0] = 5; // white
 					bottomEdge [1] = 0;
@@ -68,20 +68,20 @@ public class Cube {
 				break;
 
 				case 2: //orange face
-					rightEdge [0] = 3;//refers to the overall side color - green
-					rightEdge [1] = 2;//location number of the side color 
-					rightEdge [2] = 5;
-					rightEdge [3] = 8;
+					rightEdge [0] = 1;//refers to the overall side color - blue
+					rightEdge [1] = 0;//location number of the side color 
+					rightEdge [2] = 3;
+					rightEdge [3] = 6;
 
 					topEdge [0] = 4; //color yellow
 					topEdge [1] = 0;
 					topEdge [2] = 3;
 					topEdge [3] = 6;
 
-					leftEdge [0] = 1; //blue 
-					leftEdge [1] = 0;
-					leftEdge [2] = 3;
-					leftEdge [3] = 6; 
+					leftEdge [0] = 3; //green 
+					leftEdge [1] = 2;
+					leftEdge [2] = 5;
+					leftEdge [3] = 8; 
 
 					bottomEdge [0] = 5; // white
 					bottomEdge [1] = 6;
@@ -89,20 +89,20 @@ public class Cube {
 					bottomEdge [3] = 0;
 				break;
 				case 3: //green face
-					rightEdge [0] = 0;//refers to the overall side color - red
-					rightEdge [1] = 2;//location number of the side color 
-					rightEdge [2] = 5;
-					rightEdge [3] = 8;
+					rightEdge [0] = 2;//refers to the overall side color - orange
+					rightEdge [1] = 0;//location number of the side color 
+					rightEdge [2] = 3;
+					rightEdge [3] = 6;
 
 					topEdge [0] = 4; //color yellow
 					topEdge [1] = 2;
 					topEdge [2] = 1;
 					topEdge [3] = 0;
 
-					leftEdge [0] = 2; //orange 
-					leftEdge [1] = 0;
-					leftEdge [2] = 3;
-					leftEdge [3] = 6; 
+					leftEdge [0] = 0; //red 
+					leftEdge [1] = 2;
+					leftEdge [2] = 5;
+					leftEdge [3] = 8; 
 
 					bottomEdge [0] = 5; // white
 					bottomEdge [1] = 8;
@@ -111,20 +111,20 @@ public class Cube {
 				break;
 
 				case 4: //yellow face
-				rightEdge [0] = 2;//refers to the overall side color - orange
-				rightEdge [1] = 0;//location number of the side color 
+				rightEdge [0] = 0;//refers to the overall side color - red
+				rightEdge [1] = 2;//location number of the side color 
 				rightEdge [2] = 1;
-				rightEdge [3] = 2;
+				rightEdge [3] = 0;
 
 				topEdge [0] = 3; //color green
 				topEdge [1] = 2;
 				topEdge [2] = 1;
 				topEdge [3] = 0;
 
-				leftEdge [0] = 0; //red 
-				leftEdge [1] = 2;
+				leftEdge [0] = 2; //orange 
+				leftEdge [1] = 0;
 				leftEdge [2] = 1;
-				leftEdge [3] = 0; 
+				leftEdge [3] = 2; 
 
 				bottomEdge [0] = 1; // blue
 				bottomEdge [1] = 0;
@@ -133,20 +133,20 @@ public class Cube {
 				break;
 
 				case 5: //white face 
-					rightEdge [0] = 2;//refers to the overall side color - orange 
-					rightEdge [1] = 8;//location number of the side color 
+					rightEdge [0] = 0;//refers to the overall side color - red 
+					rightEdge [1] = 6;//location number of the side color 
 					rightEdge [2] = 7;
-					rightEdge [3] = 6;
+					rightEdge [3] = 8;
 
 					topEdge [0] = 1; //color blue
 					topEdge [1] = 6;
 					topEdge [2] = 7;
 					topEdge [3] = 8;
 
-					leftEdge [0] = 0; //red 
-					leftEdge [1] = 6;
+					leftEdge [0] = 2; //orange 
+					leftEdge [1] = 8;
 					leftEdge [2] = 7;
-					leftEdge [3] = 8; 
+					leftEdge [3] = 6; 
 
 					bottomEdge [0] = 3; // green
 					bottomEdge [1] = 8;
@@ -159,76 +159,76 @@ public class Cube {
 	public void turnFace(int index, String direction){
 		edgeAssignment eFace = new edgeAssignment(index);
 
-		String[][] copy = new ()String [6][9]
+		String[][] copy = new String [6][9];
 		
 				for (int i = 0; i<6; i++){
 					for(int j=0; j<9; j++){
-						copy[i][j] = cube[i][j];
+						copy[i][j]=cubeLocation[i][j];
 					}
 				}
 		
 				switch(direction){
-				case "clockwise":
+				case Main.CLOCKWISE:
 					//how the face numbers change
-					cube[eFace.currentFace][0] = copy[eFace.currentFace][2];
-					cube[eFace.currentFace][1] = copy[eFace.currentFace][5];
-					cube[eFace.currentFace][2] = copy[eFace.currentFace][8];
-					cube[eFace.currentFace][3] = copy[eFace.currentFace][3];
-					cube[eFace.currentFace][5] = copy[eFace.currentFace][7];
-					cube[eFace.currentFace][6] = copy[eFace.currentFace][0];
-					cube[eFace.currentFace][7] = copy[eFace.currentFace][3];
-					cube[eFace.currentFace][8] = copy[eFace.currentFace][6];
+					cubeLocation[eFace.currentFace][0] = copy[eFace.currentFace][6];
+					cubeLocation[eFace.currentFace][1] = copy[eFace.currentFace][3];
+					cubeLocation[eFace.currentFace][2] = copy[eFace.currentFace][0];
+					cubeLocation[eFace.currentFace][3] = copy[eFace.currentFace][7];
+					cubeLocation[eFace.currentFace][5] = copy[eFace.currentFace][1];
+					cubeLocation[eFace.currentFace][6] = copy[eFace.currentFace][8];
+					cubeLocation[eFace.currentFace][7] = copy[eFace.currentFace][5];
+					cubeLocation[eFace.currentFace][8] = copy[eFace.currentFace][2];
 		
 					// right edge change 
-					cube[eFace.rightEdge[0]][eFace.rightEdge[1]] = copy[eFace.bottomEdge[0]][eFace.bottomEdge[1]];
-					cube[eFace.rightEdge[0]][eFace.rightEdge[2]] = copy[eFace.bottomEdge[0]][eFace.bottomEdge[2]];
-					cube[eFace.rightEdge[0]][eFace.rightEdge[3]] = copy[eFace.bottomEdge[0]][eFace.bottomEdge[3]];
+					cubeLocation[eFace.rightEdge[0]][eFace.rightEdge[1]] = copy[eFace.topEdge[0]][eFace.topEdge[1]];
+					cubeLocation[eFace.rightEdge[0]][eFace.rightEdge[2]] = copy[eFace.topEdge[0]][eFace.topEdge[2]];
+					cubeLocation[eFace.rightEdge[0]][eFace.rightEdge[3]] = copy[eFace.topEdge[0]][eFace.topEdge[3]];
 					
 					//top edge change 
-					cube[eFace.topEdge[0]][eFace.topEdge[1]] = copy[eFace.rightEdge[0]][eFace.rightEdge[1]];
-					cube[eFace.topEdge[0]][eFace.topEdge[2]] = copy[eFace.rightEdge[0]][eFace.rightEdge[2]];
-					cube[eFace.topEdge[0]][eFace.topEdge[3]] = copy[eFace.rightEdge[0]][eFace.rightEdge[3]];
+					cubeLocation[eFace.topEdge[0]][eFace.topEdge[1]] = copy[eFace.leftEdge[0]][eFace.leftEdge[1]];
+					cubeLocation[eFace.topEdge[0]][eFace.topEdge[2]] = copy[eFace.leftEdge[0]][eFace.leftEdge[2]];
+					cubeLocation[eFace.topEdge[0]][eFace.topEdge[3]] = copy[eFace.leftEdge[0]][eFace.leftEdge[3]];
 		
-					//left edge change 
-					cube[eFace.leftEdge[0]][eFace.leftEdge[1]] = copy[eFace.topEdge[0]][eFace.topEdge[1]];
-					cube[eFace.leftEdge[0]][eFace.leftEdge[2]] = copy[eFace.topEdge[0]][eFace.topEdge[2]];
-					cube[eFace.leftEdge[0]][eFace.leftEdge[3]] = copy[eFace.topEdge[0]][eFace.topEdge[3]];
+					//left edge charight
+					cubeLocation[eFace.leftEdge[0]][eFace.leftEdge[1]] = copy[eFace.bottomEdge[0]][eFace.bottomEdge[1]];
+					cubeLocation[eFace.leftEdge[0]][eFace.leftEdge[2]] = copy[eFace.bottomEdge[0]][eFace.bottomEdge[2]];
+					cubeLocation[eFace.leftEdge[0]][eFace.leftEdge[3]] = copy[eFace.bottomEdge[0]][eFace.bottomEdge[3]];
 		
 					//bottom edge change
-					cube[eFace.bottomEdge[0]][eFace.bottomEdge[1]] = copy[eFace.leftEdge[0]][eFace.leftEdge[1]];
-					cube[eFace.bottomEdge[0]][eFace.bottomEdge[2]] = copy[eFace.leftEdge[0]][eFace.leftEdge[2]];
-					cube[eFace.bottomEdge[0]][eFace.bottomEdge[3]] = copy[eFace.leftEdge[0]][eFace.leftEdge[3]];
+					cubeLocation[eFace.bottomEdge[0]][eFace.bottomEdge[1]] = copy[eFace.rightEdge[0]][eFace.rightEdge[1]];
+					cubeLocation[eFace.bottomEdge[0]][eFace.bottomEdge[2]] = copy[eFace.rightEdge[0]][eFace.rightEdge[2]];
+					cubeLocation[eFace.bottomEdge[0]][eFace.bottomEdge[3]] = copy[eFace.rightEdge[0]][eFace.rightEdge[3]];
 			break;
-			case "counterClockwise":
+			case Main.COUNTER_CLOCKWISE:
 					// how the face numbers move 
-					cube[eFace.currentFace][0] = copy[eFace.currentFace][6];
-					cube[eFace.currentFace][1] = copy[eFace.currentFace][3];
-					cube[eFace.currentFace][2] = copy[eFace.currentFace][0];
-					cube[eFace.currentFace][3] = copy[eFace.currentFace][7];
-					cube[eFace.currentFace][5] = copy[eFace.currentFace][1];
-					cube[eFace.currentFace][6] = copy[eFace.currentFace][2];
-					cube[eFace.currentFace][7] = copy[eFace.currentFace][5];
-					cube[eFace.currentFace][8] = copy[eFace.currentFace][8];
+					cubeLocation[eFace.currentFace][0] = copy[eFace.currentFace][2];
+					cubeLocation[eFace.currentFace][1] = copy[eFace.currentFace][5];
+					cubeLocation[eFace.currentFace][2] = copy[eFace.currentFace][8];
+					cubeLocation[eFace.currentFace][3] = copy[eFace.currentFace][1];
+					cubeLocation[eFace.currentFace][5] = copy[eFace.currentFace][7];
+					cubeLocation[eFace.currentFace][6] = copy[eFace.currentFace][0];
+					cubeLocation[eFace.currentFace][7] = copy[eFace.currentFace][3];
+					cubeLocation[eFace.currentFace][8] = copy[eFace.currentFace][6];
 
 				//right edge movement
-					cube[eFace.rightEdge[0]][eFace.rightEdge[1]] = copy[eFace.topEdge[0]][eFace.topEdge[1]];
-					cube[eFace.rightEdge[0]][eFace.rightEdge[2]] = copy[eFace.topEdge[0]][eFace.topEdge[2]];
-					cube[eFace.rightEdge[0]][eFace.rightEdge[3]] = copy[eFace.topEdge[0]][eFace.topEdge[3]];
+					cubeLocation[eFace.rightEdge[0]][eFace.rightEdge[1]] = copy[eFace.bottomEdge[0]][eFace.bottomEdge[1]];
+					cubeLocation[eFace.rightEdge[0]][eFace.rightEdge[2]] = copy[eFace.bottomEdge[0]][eFace.bottomEdge[2]];
+					cubeLocation[eFace.rightEdge[0]][eFace.rightEdge[3]] = copy[eFace.bottomEdge[0]][eFace.bottomEdge[3]];
 
 				//top edge movement
-					cube[eFace.topEdge[0]][eFace.topEdge[1]] = copy[eFace.leftEdge[0]][eFace.leftEdge[1]];
-					cube[eFace.topEdge[0]][eFace.topEdge[2]] = copy[eFace.leftEdge[0]][eFace.leftEdge[2]];
-					cube[eFace.topEdge[0]][eFace.topEdge[3]] = copy[eFace.leftEdge[0]][eFace.leftEdge[3]];
+					cubeLocation[eFace.topEdge[0]][eFace.topEdge[1]] = copy[eFace.rightEdge[0]][eFace.rightEdge[1]];
+					cubeLocation[eFace.topEdge[0]][eFace.topEdge[2]] = copy[eFace.rightEdge[0]][eFace.rightEdge[2]];
+					cubeLocation[eFace.topEdge[0]][eFace.topEdge[3]] = copy[eFace.rightEdge[0]][eFace.rightEdge[3]];
 
 				// left edge movement
-					cube[eFace.leftEdge[0]][eFace.leftEdge[1]] = copy[eFace.bottomEdge[0]][eFace.bottomEdge[1]];
-					cube[eFace.leftEdge[0]][eFace.leftEdge[2]] = copy[eFace.bottomEdge[0]][eFace.bottomEdge[2]];
-					cube[eFace.leftEdge[0]][eFace.leftEdge[3]] = copy[eFace.bottomEdge[0]][eFace.bottomEdge[3]];
+					cubeLocation[eFace.leftEdge[0]][eFace.leftEdge[1]] = copy[eFace.topEdge[0]][eFace.topEdge[1]];
+					cubeLocation[eFace.leftEdge[0]][eFace.leftEdge[2]] = copy[eFace.topEdge[0]][eFace.topEdge[2]];
+					cubeLocation[eFace.leftEdge[0]][eFace.leftEdge[3]] = copy[eFace.topEdge[0]][eFace.topEdge[3]];
 
 				// bottom edge movement
-					cube[eFace.bottomEdge[0]][eFace.bottomEdge[1]] = copy[eFace.rightEdge[0]][eFace.rightEdge[1]];
-					cube[eFace.bottomEdge[0]][eFace.bottomEdge[2]] = copy[eFace.rightEdge[0]][eFace.rightEdge[2]];
-					cube[eFace.bottomEdge[0]][eFace.bottomEdge[3]] = copy[eFace.rightEdge[0]][eFace.rightEdge[3]];
+					cubeLocation[eFace.bottomEdge[0]][eFace.bottomEdge[1]] = copy[eFace.leftEdge[0]][eFace.leftEdge[1]];
+					cubeLocation[eFace.bottomEdge[0]][eFace.bottomEdge[2]] = copy[eFace.leftEdge[0]][eFace.leftEdge[2]];
+					cubeLocation[eFace.bottomEdge[0]][eFace.bottomEdge[3]] = copy[eFace.leftEdge[0]][eFace.leftEdge[3]];
 			break;
 		}
 
@@ -239,11 +239,12 @@ public class Cube {
 	}
 
 	public void print(){
-	
+	int ind = 0;
 		for (int x=0; x<6; x++){
+			ind=0;
 			for(int y=0; y<3; y++){
 				for(int z=0; z<3; z++){
-					System.out.print(cubeLocation[x][y+z]);
+					System.out.print(cubeLocation[x][ind++]);
 				}
 				System.out.println();
 			}
